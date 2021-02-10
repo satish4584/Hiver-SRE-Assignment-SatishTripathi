@@ -29,7 +29,7 @@ resource "aws_route_table" "private_rt" {
     gateway_id = aws_internet_gateway.terra_igw.id
   }
   tags {
-    Name = "publicRouteTable"
+    Name = "privateRouteTable"
   }
 }
 
